@@ -13,7 +13,7 @@ The simulation aims to compare deterministic and stochastic approaches to unders
 ## Project Structure
 
 - **`reaction.m`**: MATLAB code implementing both deterministic and stochastic simulations of the chemical reaction system.
-- **`Jere_Arokivi_Matti_Aalto_Max_Wesamaa.pdf`**: A detailed report explaining the mathematical formulations, methods, results, and conclusions of the project.
+- **`report.pdf`**: A detailed report explaining the mathematical formulations, methods, results, and conclusions of the project.
 
 ---
 
@@ -56,7 +56,7 @@ The simulation aims to compare deterministic and stochastic approaches to unders
   - A = 100, B = 100, C = 0, D = 0
 
 - **Simulation Settings**:
-  - Time: 0 to 70 units
+  - Time: 0 to 35 units
   - Time Step: 0.01 units
   - Number of Simulations: 100
 
@@ -70,7 +70,8 @@ The simulation aims to compare deterministic and stochastic approaches to unders
 
 - **End-State Distributions**:
   - Species A and D show low variability.
-  - Species B and C demonstrate significant stochastic effects.
+  - Species C demonstrate significant stochastic effects.
+  - Species B converges to zero
 
 - **Scalability**:
   - Stochastic variability diminishes as molecule populations increase, aligning closely with deterministic predictions.
